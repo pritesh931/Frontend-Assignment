@@ -1,0 +1,190 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+}
+
+body {
+  background-color: #1d1160;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  /* box-shadow: 0 1px 8px #ddd; */
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+  color: white;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #b2dfdb;
+}
+
+.active {
+  background-color: red;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 20px 50px;
+}
+
+.container1 {
+  color: white;
+}
+.container1 h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.container1 p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-1 {
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+}
+
+.container2 {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+}
+.title {
+  margin-top: 30px;
+  color: #1d1160;
+}
+.email {
+  width: 250px;
+  padding: 10px 10px;
+  border-radius: 50px;
+  border: 2px solid #DCDCDC;
+  margin-top: 20px;
+  color: #DCDCDC;
+}
+
+.password {
+  width: 250px;
+  padding: 10px 10px;
+  border-radius: 50px;
+  border: 2px solid #DCDCDC;
+  margin-top: 20px;
+  color: #DCDCDC;
+}
+
+.btn-2 {
+  width: 275px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #1d1160;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-3 {
+  width: 275px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.tacbox {
+  display:block;
+  max-width: 800px;
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  /* height: 10px;
+  width: 2em; */
+  vertical-align: middle;
+}
+
+.terms {
+  font-size: 12px;
+  color: gray'
+}
+
+.sign-in {
+  margin-top: 20px;
+}
+
+.or {
+  position: relative;
+  margin-top: 10px;
+
+}
+
+.or:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: orange;
+  left: 90px;
+  top: 50%;
+  position: absolute;
+}
+.or:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: #DCDCDC;
+  right: 90px;
+  top: 50%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 769px) {
+     .section {
+      display: block;
+     }
+     header {
+      display: flex;
+     }
+
+}
